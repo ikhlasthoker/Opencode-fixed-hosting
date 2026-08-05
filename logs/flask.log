@@ -1,0 +1,22 @@
+
+==================================================
+🚀 JUBAYER HOSTING - FINAL
+==================================================
+📍 Running on port 5000
+👤 admin / admin123
+==================================================
+
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.113.235.136:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [05/Aug/2026 22:31:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2026 22:31:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2026 22:31:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [05/Aug/2026 22:31:24] "[32mGET /admin HTTP/1.1[0m" 302 -
+127.0.0.1 - - [05/Aug/2026 22:31:24] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2026 22:31:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [05/Aug/2026 22:31:34] "GET /admin HTTP/1.1" 200 -

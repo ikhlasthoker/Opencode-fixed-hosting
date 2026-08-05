@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+ENV/
+bots/
+*.log
+*.json
+!requirements.txt
+Procfile
+railway.toml
+.DS_Store
