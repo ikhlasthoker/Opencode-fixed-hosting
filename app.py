@@ -143,11 +143,11 @@ def create_default_files(server_dir):
     main_py = os.path.join(server_dir, 'main.py')
     if not os.path.exists(main_py):
         with open(main_py, 'w', encoding='utf-8') as f:
-            f.write('''# JUBAYER HOSTING - Default Bot
+            f.write('''# IKHLAS HOSTING - Default Bot
 import time
 
 print("=" * 40)
-print("Bot is running on JUBAYER HOSTING")
+print("Bot is running on IKHLAS HOSTING")
 print("Server is ready!")
 print("=" * 40)
 
@@ -419,7 +419,7 @@ def api_create_server():
         password = generate_random_password(10)
     
     if not username:
-        username = f"JUBAYER_CODEX{random.randint(10000, 99999)}"
+        username = f"IKHLAS_CODEX{random.randint(10000, 99999)}"
     
     if len(username) < 3:
         return jsonify({'status': 'error', 'message': 'Username must be at least 3 characters!'}), 400
@@ -1114,7 +1114,7 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     debug = os.environ.get('FLASK_DEBUG', 'false').lower() == 'true'
     print("\n" + "=" * 50)
-    print("🚀 JUBAYER HOSTING - FINAL")
+    print("🚀 IKHLAS HOSTING - FINAL")
     print("=" * 50)
     print(f"📍 Running on port {port}")
     print("👤 admin / admin123")
