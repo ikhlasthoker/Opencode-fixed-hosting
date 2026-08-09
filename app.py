@@ -91,13 +91,13 @@ def generate_random_password(length=10):
 
 def load_users():
     if not os.path.exists(USERS_FILE):
-        default = {"admin": {"password": "admin123", "role": "admin"}}
+        default = {"admin": {"password": "IKHLASTHEADMIN", "role": "admin"}}
         save_users(default)
         return default
     with open(USERS_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
     if 'admin' not in data:
-        data['admin'] = {"password": "admin123", "role": "admin"}
+        data['admin'] = {"password": "IKHLASTHEADMIN", "role": "admin"}
         save_users(data)
     return data
 
